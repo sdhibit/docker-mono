@@ -2,7 +2,7 @@ FROM sdhibit/alpine-runit:3.6
 MAINTAINER Steve Hibit <sdhibit@gmail.com>
 
 ARG PKG_NAME="mono"
-ARG PKG_VER="5.0.1.1"
+ARG PKG_VER="5.4.0.56"
 ARG APP_BASEURL="http://download.mono-project.com/sources/mono"
 ARG APP_PKGNAME="mono-${PKG_VER}.tar.bz2"
 ARG APP_URL="${APP_BASEURL}/${APP_PKGNAME}"
