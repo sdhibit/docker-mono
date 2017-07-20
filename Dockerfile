@@ -1,4 +1,4 @@
-FROM sdhibit/alpine-runit:3.6-libc
+FROM sdhibit/alpine-runit:3.6-glibc
 MAINTAINER Steve Hibit <sdhibit@gmail.com>
 
 ARG PKG_NAME="mono"
